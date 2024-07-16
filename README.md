@@ -23,3 +23,8 @@ Este projeto é uma aplicação CRUD de usuários desenvolvida com Spring Boot, 
 ## Segurança
 
 Este projeto usa Spring Security 6 com OAuth2 e JWT para autenticação e autorização. As rotas são protegidas e requerem um token JWT válido para acesso. O Redis é usado para caching de dados de autenticação para melhorar a performance.
+
+## Recursos
+
+- [Guia Spring Security 6](https://www.youtube.com/watch?v=nDst-CRKt_k)
+- [Aprenda a usar cache Spring + Redis](https://www.youtube.com/watch?v=YcI9b-lgi7w)
