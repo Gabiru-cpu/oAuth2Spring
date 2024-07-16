@@ -20,6 +20,10 @@ Este projeto é uma aplicação CRUD de usuários desenvolvida com Spring Boot, 
 - Redis
 - Lombok
 
+## Como subir uma imagem Redis no Docker
+
+`docker run --name my-redis -p 6379:6379 -d redis`
+
 ## Segurança
 
 Este projeto usa Spring Security 6 com OAuth2 e JWT para autenticação e autorização. As rotas são protegidas e requerem um token JWT válido para acesso. O Redis é usado para caching de dados de autenticação para melhorar a performance.
