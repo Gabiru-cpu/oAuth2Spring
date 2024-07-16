@@ -1,4 +1,4 @@
-# Projeto CRUD de Usuários com Spring Boot, Spring Security 6, JWT, OAuth2, Caching com Redis
+# oAuth2Spring Base
 
 Este projeto é uma aplicação CRUD de usuários desenvolvida com Spring Boot, Spring Security 6, JWT, OAuth2 e caching usando o banco de dados NoSql Redis. Ele inclui as entidades `User`, `Role` e `Tweet`.
 
