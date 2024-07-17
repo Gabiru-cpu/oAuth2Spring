@@ -14,14 +14,19 @@ public class Role {
     private String name;
 
     public enum Values {
-        ADMIN(0L),
-        BASIC(1L);
 
+        ADMIN(1L),
+        BASIC(2L);
 
         long roleId;
 
-        Values(long roleId) { this.roleId = roleId; }
+        Values(long roleId) {
+            this.roleId = roleId;
+        }
 
+        public long getRoleId() {
+            return roleId;
+        }
     }
 
 }
